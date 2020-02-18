@@ -1,0 +1,99 @@
+---
+title: "IFN_RNAseq"
+output: 
+  html_document:
+    toc: true
+    toc_depth: 2
+    toc_float: true
+    
+---
+
+# Introduction {#introduction}
+This is a introduction to my data in R.
+
+## Starting with RStudio
+Introduction to RStudio
+
+### Opening RStudio
+Three subheadings might be too much
+
+You can add **bold text** or __bold text with two underscores__
+You can also use *italics* with _single underscores_
+Adding superscript ^isalsoeasy^
+Adding subscript using ~tildesign~
+
+If you add inline code use the backtick `to write code`
+
+Use strikethrough text ~~double~~ tilde
+
+If you're writing a lot of text 
+then you might want to break it up.
+
+But if you have a long sentence 
+
+Another way is to use the \
+
+backslash
+
+we have covered this in the [introduction section](#introduction).
+
+you can also create [links to google](https://www.google.com).
+
+But you might have some link to the footnote [^1].
+
+[^1]: This is my first footnote
+
+## Lists
+
+Ordered lists take numbers
+
+1. Item a
+2. Item b
+3. item c
+
+You can also have unordered lists
+
+- Item A
+- Item B
+
+- [ ] 
+- [x]
+
+![A fox](https://www.wildlifeaid.org.uk/wp-content/uploads/2019/02/IMG_7738Small.jpg)
+
+## Tables
+
+You can create tables using | ~
+
+| Column header | Another column | 
+| ------------- |----------------|
+| First row     | With info      |
+| More rows     | With more info |
+
+> A greater than sign creates blocks
+
+How does that look?
+
+How would we highlight code?
+
+Single `backticks` are used in line.
+
+```
+print("hello")
+read.csv("data.txt")
+```
+
+```{r}
+75 * 8
+```
+
+```{r}
+calculation_output <- 100 * 2
+
+calculation_output * 5
+```
+
+```{r}
+download.file(url="https://raw.githubusercontent.com/cambiotraining/reproducibility-training/master/data/gapminder_data.csv", destfile="data/gapminder_data.csv")
+```
+
